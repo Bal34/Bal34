@@ -1,0 +1,279 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.tab {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.tab2 {
+    display: inline-block;
+    margin-left: 120px;
+}
+
+.tab3 {
+    display: inline-block;
+    margin-left: 105.5px;
+}
+
+.tab4 {
+    display: inline-block;
+    margin-left: 79px;
+}
+
+hr.seperator {
+    margin: 20px;
+    color: #084266;
+}
+
+/*Main Page*/
+html#main {
+    background-color: #208bc1ec;
+    background-size: cover;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+
+}
+
+div.details {
+    text-align: center;
+    color: rgb(247, 250, 251);
+    margin-bottom: 50px;
+
+}
+
+div.info {
+    text-align: center;
+    color: rgb(247, 250, 251);
+    margin-bottom: 45px;
+}
+
+div.buttons {
+    text-align: center;
+    margin: bottom 40px;;
+}
+
+button#button1 {
+    background-color:white;
+    border-radius: 30px;
+    color: rgb(11, 10, 10);
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+button#button2 {
+    background-color: white;
+    border-radius: 30px;
+    color: rgb(7, 5, 5);
+    padding: 20px;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+}
+
+
+
+a.btn {
+    text-decoration: none;
+    color: rgb(4, 0, 0);
+}
+
+#btn1:hover {
+    background-color: #FC888C;
+    color: black;
+
+}
+
+#btn2:hover {
+    background-color: #FC888C;
+    color: black;
+}
+
+
+
+.btn:hover {
+    color: black;
+}
+
+#text1{
+    
+    font-family: 'Courier New';
+          background: linear-gradient(#d9e4f5, #98eef9, #b2c7ee);
+          background-size: 400% 400%;
+          animation: gradient 15s ease infinite;
+          
+          
+    width: 90vw;
+    height: auto;
+    margin-left: 15vw;
+    margin: 2vw 1vw;
+    left:0;
+    font-size: 1.5vw;
+}
+#text2{
+    
+    font-family: 'Courier New';
+          background: linear-gradient(#d9e4f5, #98eef9, #b2c7ee);
+          background-size: 400% 400%;
+          animation: gradient 15s ease infinite;
+          
+          
+    width: 90vw;
+    height: auto;
+    margin-right: 15vw;
+    margin: 2vw 1vw;
+    right: auto;
+    font-size: 1.5vw;
+}
+.box{
+    height: auto;
+    width: 90vw;
+    display: flex;
+}
+
+hello { 
+	background: #0b0005; 
+}
+
+.infographic{ 
+	background: #ff6699; 
+}
+
+section {
+    display: block;
+  }
+
+.fourth-color { 
+	background: #ffaded; 
+}
+
+.primary-text-color { 
+	color: #212121; 
+}
+
+.secondary-text-color { 
+	color: #757575; 
+}
+
+.divider-color { 
+	color: #BDBDBD; 
+}
+
+.icon-color { 
+	color: #000000; 
+}
+
+
+
+
+
+#b3{
+ 
+    height: 25vw;
+}
+
+table
+{
+    border-collapse: separate;
+border-spacing: 0 1.3vw;
+overflow-x: auto;
+}
+
+#tablet{
+    margin-top: 10vw;
+    font-family: 'Arial';
+    text-shadow: 2px 2px black;
+    color: brown;
+    margin-left: 50%;
+    font-size: 3.5vw;
+    
+}
+th{
+    background-color: #757575; 
+    color: whitesmoke;
+    font-size: 1.2vw;
+    height: 10vw;
+    width: 20vw;
+}
+td{
+    vertical-align: top;
+    width: 80vw;
+}
+tr{
+    background-color: rgb(170, 210, 247);
+    box-shadow: 0 0 10px black;
+}
+#TableHeading{
+    font-size: 2vw;
+}
+
+#field
+{
+    font-size: 1.3vw;
+}
+td #field{
+    font-size: 2vw;
+}
+#school
+{
+color: black;
+text-transform: uppercase;
+}
+
+
+
+div.contact {
+    display: block;
+}
+
+
+.required {
+    color: red;
+}
+
+#errorEma {
+    color: red;
+    display: inline-block;
+}
+
+#Details {
+    display: grid;
+}
+
+.reveal-if-active {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    font-size: 16px;
+    transform: scale(0.8);
+    transition: 0.5s;
+}
+
+.reveal-if-active label {
+    display: block;
+    margin: 0 0 3px 0;
+}
+
+.reveal-if-active input[type=text] {
+    width: 100%;
+}
+
+input[type=radio]:checked~.reveal-if-active,
+input[type=checkbox]:checked~.reveal-if-active {
+    opacity: 1;
+    max-height: 100px;
+    padding: 10px 20px;
+    transform: scale(1);
+    overflow: visible;
+}
+
